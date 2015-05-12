@@ -16,6 +16,7 @@ bgImage.onload = function () {
      bgReady = true;
 };
 
+bgImage.src = "images/castle.png";
 
 
 // Hero image
