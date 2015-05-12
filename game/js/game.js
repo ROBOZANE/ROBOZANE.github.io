@@ -39,7 +39,7 @@ monsterImage.onload = function () {
      monsterReady = true;
 };
 
-monsterImage.src = "images/ruppee.png";
+monsterImage.src = "images/rupee.png";
 
 // Game objects
 
