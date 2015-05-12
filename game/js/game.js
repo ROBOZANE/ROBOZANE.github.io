@@ -28,7 +28,7 @@ heroImage.onload = function () {
      heroReady = true;
 };
 
-heroImage.src = "images/hero.png";
+heroImage.src = "images/link hero.png";
  
 // Monster image
 
@@ -39,7 +39,7 @@ monsterImage.onload = function () {
      monsterReady = true;
 };
 
-monsterImage.src = "images/monster.png";
+monsterImage.src = "images/ruppee.png";
 
 // Game objects
 
@@ -140,7 +140,7 @@ var render = function () {
      ctx.font = "24px Helvetica";
      ctx.textAlign = "left";
      ctx.textBaseline = "top";
-     ctx.fillText("Monsters caught: " + monstersCaught, 32, 32);
+     ctx.fillText("Ruppees caught: " + monstersCaught, 32, 32);
 };
 
 // The main game loop
